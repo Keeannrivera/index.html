@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BURGER BLISS!</title>
+</head>
+<body>
+    <div class="navbar">
+        <input type="search" placeholder="Search.....">
+        <div>
+            <a href="#">HOME</a>
+            <a href="#">ABOUT</a>
+            <a href="#">CONTACT</a>
+            <a href="#">HELP</a>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="welcome">
+            <h1>Welcome To Burger Bliss!</h1>
+            <div class="burger-image"></div>
+            <p>Enjoy juicy burgers and crispy fries 
+                <br>made from the freshest ingredients.
+                <br>Quick, delicious, and always satisfying.
+                <br> Come hungry, leave happy!</p>
+        </div>
+            <div class="login-form">
+                <form action="#" method="post">
+                    <input type="email" name="email" placeholder="Email">
+                    <input type="password" name="password" placeholder="Password">
+                    <button type="submit">Sign In</button>
+                </form>
+                <div class="forgot-password">
+                    <a href="#">Forgot Password?</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background-color: black;
+        color: white;
+        margin: 0;
+        padding: 0;
+    }
+
+    .navbar {
+        background-color: #ffc93c;
+        padding: 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .navbar input[type="search"] {
+        padding: 5px;
+        width: 700px;
+        border: none;
+        border-radius: 18.9px;
+    }
+
+    .navbar a {
+        color: black;
+        text-decoration: none;
+        margin-right: 30px;
+        padding: 3px;
+        font-weight: bold;
+    }
+
+    .container {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 90vh;
+    }
+
+    .welcome {
+        text-align: center;
+    }
+
+    .welcome h1 {
+        font-size: 2.3em;
+        margin-bottom: 10px;
+    }
+
+    .burger-image {
+        width: 400px;
+        height: 400px;
+        background-image: url('burgeran.png');
+        background-size: cover;
+        background-position: center;
+        margin: 0 auto;
+    }
+
+    .welcome p {
+        font-size: 1.1em;
+        margin-top: 20px;
+        margin: 0 auto;
+    }
+
+    .login-form {
+        background-color: #f5f5f5;
+        padding: 34.5px;
+        border-radius: 10px;
+        color: black;
+    }
+
+    .login-form input {
+        width: 95.8%;
+        padding: 10px;
+        margin: 10px 0;
+        border-radius: 5px;
+        border: 1px solid #ddd;
+    }
+
+    .login-form button {
+        width: 100%;
+        padding: 8px;
+        background-color: black;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        font-size: 1em;
+        cursor: pointer;
+    }
+
+    .login-form button:hover {
+         background-color: #333;
+    }
+
+    .forgot-password {
+        text-align: left;
+        margin-top: 10px;
+        padding-top: 3%;
+        padding-bottom: 5%;
+    }
+
+    .forgot-password a {
+        color: #333;
+        text-decoration: none;
+    }
+    
+
+</style>
+
